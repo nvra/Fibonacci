@@ -24,7 +24,7 @@ namespace FibonacciNumber.Controllers
         [HttpGet]
         public string Get()
         {
-            return "Welcome to Fibonacci Programming";
+            return "Welcome to Fibonacci Programming. \n The Fibonacci API responds at 'http://localhost:61716/api/fibonacci/{number}'";
         }
 
         [Route("api/fibonacci/{number}")]
